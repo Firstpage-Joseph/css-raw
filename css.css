@@ -1,4 +1,114 @@
-.banner h1 {
-  font-size: 80px;
-  color: #fff !important;
+
+.header-banner h1 {
+   color: #fff !important;
+    font-size: 80px !important;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: -1px 0px 3px rgba(0,0,0,0.6);
+ }
+.header-banner .caption-content { width: 100% !Important;  }
+.header-banner .caption-content p {
+ color: #fff !important;
+ font-size: 30px;
+}
+.header-banner .caption {
+    bottom: 8%;
+    top: inherit;
+    text-align: center;
+}
+.header-banner .caption-center .caption-content {
+   margin-left: 0 !important;
+}
+.header-banner .caption-center .caption-content  .btn-theme {
+    background: transparent !important;
+    color: #fff;
+    font-size: 30px;
+    padding: 8px 40px;
+    text-transform: none;
+    border-radius: 29px;
+    border: 2px solid #fff;
+    font-weight: normal;
+}
+.big-p p {
+   font-size: 24px;
+    line-height: 45px;
+}
+.hero_carousel_text_wrapper h2{
+font-size: 45px;
+font-weight: 800;
+color: #fff !important;
+    text-shadow: -1px 0px 3px rgba(0,0,0,0.6);
+}
+.hero_carousel_text_wrapper {
+    position: absolute;
+    top: inherit !important;
+    left: 0;
+    margin: auto !important;
+    right: 0;
+    text-align: center;
+    max-width: 600px;
+    bottom: 35%;
+}
+.hero_carousel_text_wrapper .btn_v2 {
+   display: none;
+}
+.hero_carousel_text_wrapper p {
+  font-size: 30px;
+ color: #fff;
+  line-height: 50px;
+}
+
+.aem-Grid .contentcontainer:nth-child(5){
+    background: url(/content/dam/priority-registration/TLLAdvantage-02.jpg);
+    background-repeat: no-repeat;
+    background-size: over;
+    padding: 55px;
+}
+
+.aem-Grid .contentcontainer:nth-child(5) h3{ 
+  font-size: 50px;
+}
+.aem-Grid .contentcontainer:nth-child(5) p, .aem-Grid .contentcontainer:nth-child(5) a {
+ color: #fff;
+} 
+
+.aem-Grid .columncontrol:nth-child(9) {
+    background: url(/content/dam/priority-registration/LessonFormats-01-Right.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #282520;
+}
+.aem-Grid .columncontrol:nth-child(10) {
+    background: url(/content/dam/priority-registration/OnlineClasses-Left.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-color: #282520;
+}
+
+.aem-Grid .columncontrol:nth-child(9) p:first-child, .aem-Grid .columncontrol:nth-child(10) p:first-child {
+display:none;
+}
+
+.aem-Grid .columncontrol:nth-child(9) div, .aem-Grid .columncontrol:nth-child(10) div {
+ padding: 0 !important;
+}
+
+.lesson-formats {
+ margin: 10%;
+}
+.lesson-formats h3 {
+font-size: 45px;
+color:#fff;
+font-weight: 800;
+}
+
+.lesson-formats p {
+color:#fff;
+}
+
+.new-h2 {
+font-size: 45px;
+font-weight: 800 !important;
 }
