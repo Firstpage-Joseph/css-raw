@@ -1,1 +1,4 @@
-#styling...
+.banner h1 {
+  font-size: 80px;
+  color: #fff !important;
+}
