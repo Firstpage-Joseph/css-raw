@@ -66,7 +66,7 @@ color: #fff !important;
 }
 
 .aem-Grid .contentcontainer:nth-child(5) h3{ 
-  font-size: 50px;
+  font-size: 45px;
 }
 .aem-Grid .contentcontainer:nth-child(5) p, .aem-Grid .contentcontainer:nth-child(5) a {
  color: #fff;
@@ -78,6 +78,12 @@ color: #fff !important;
     background-size: contain;
     background-position: right;
     background-color: #282520;
+}
+
+.aem-Grid .columncontrol:nth-child(9) .text.aem-GridColumn{
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 .aem-Grid .columncontrol:nth-child(10) {
     background: url(/content/dam/priority-registration/OnlineClasses-Left.jpg);
@@ -109,6 +115,6 @@ color:#fff;
 }
 
 .new-h2 {
-font-size: 45px;
+font-size: 55px;
 font-weight: 800 !important;
 }
